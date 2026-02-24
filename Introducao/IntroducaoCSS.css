@@ -1,0 +1,47 @@
+body{
+    background-color: #999;
+}
+
+h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+h2{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: #ff0;
+    text-decoration: underline;
+}
+
+p{
+    color: brown;
+    font-size: 23;
+    
+}
+a{
+    text-decoration: none;
+    font-variant: normal;
+}
+
+/* classe destaque (usa um . antes para definir visual para classes) */
+.destaque{
+
+    color: #00126d;
+    font-weight: bold;
+}
+
+/* ID destaque (usa um # antes para definir visual para ID`s) */
+#destaque{
+
+    color: #593b03;
+    font-weight:lighter;
+}
+
+#subTitulo{
+    background-color: green;
+    color: #593b03;
+}
