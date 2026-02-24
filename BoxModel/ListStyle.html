@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Listas</title>
+
+    <style>
+
+        body{
+            background-color: ccc;
+            font-family: sans-serif;
+        }
+        p{
+            margin: auto;
+            padding: 10px;
+        }
+        .bold{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow'; 
+            background-color: aqua;
+            padding: auto;
+            text-align: right;
+            display: inline-block;
+            margin:0 10px;
+        }
+
+        ul li{
+            list-style-type: square;
+            list-style-position: outside;
+        }
+        ol li{
+            list-style-type: lower-roman;
+            list-style-position: inside;
+        }
+        .none li{
+            list-style-type: none;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>List Style</h1>
+
+    <p>
+        Tipos de List Style:    <br>
+        list-style-type         <br>
+        list-style-position     <br>
+        list-style-image        <br>
+        <b class="bold">OU</b>  <br>
+        pode ser definido por:  <br>
+        list-style: type poisition image <br><br>
+
+        <i>Em Styles se colocar dois objetos com espaços e nao virgula<br>
+        ele faz a alteração do item pai e filho</i>
+    </p>
+    <p>
+        <b>Exemplos:</b>
+    </p>
+
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    
+    <ul class="none">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+</body>
+</html>
