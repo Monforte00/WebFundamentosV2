@@ -1,13 +1,9 @@
 body{
     background-color: #eee ;
-    /* padding: 2%; */
-    /* Responsável por centralizar os content */
-    display: grid;
-    place-items: center;
-    /* margin: 0; */
     font-family: "Roboto" ,sans-serif;
-    
-
+    color: #444;
+    width: 90%;
+    margin: 5%;
 }
 h1{
     /* Cores */
@@ -15,10 +11,9 @@ h1{
     background-color: #005A9Ed8;
     /* Tamanhos */
     height: auto;
-    width: 80%;
     /* Alinhamento */
     text-align: center;
-    padding: 1px;
+    padding: 2px;
     margin-bottom: 5px;
     /* Estilização */
     font-family: "Poppins" ,sans-serif;
@@ -31,11 +26,9 @@ h2{
     background-color: lightgrey;
     /* TAMANHO */
     height: auto;
-    width: 80%;
     /* ALINHAMENTO */
     text-align: left;
-    padding: 2px;
-    padding-left: 20px;
+    padding-left: 5px;
     margin-bottom: 0px;
     /* ESTILIZAÇÃO */
     border-bottom: #00f solid 4px;
@@ -45,7 +38,6 @@ h2{
 
 .dadosPessoais{
     /* background-color: #fff; */
-    width: 80%;
     margin-top: 2px;
     margin-bottom: 0px;
     padding: 0px;
@@ -54,20 +46,33 @@ h2{
 }
 p{
     padding: 0px;
-    justify-content: left;
-    text-align: center;
-    width: 80%;
+    text-align: left;
     font-family: "Poppins", sans-serif;
 }
 
 .objetivo{
-    text-align: left;
+    height: auto;
+    padding: 2PX;
     font-weight: bold;
+    color:black;
 }
 .empresa{
+    width: auto;
+    height: 20px;
+    font-size: 24px;
+    color: black;
+    font-style: italic; 
+}
+a:hover{ 
+    background-color: #341bb0;
+    color: yellow;
 }
 .cargo{
+    font-weight: bold;
+    font-size: 20PX;
+
 }
-.duracao{
+.atividades{
+    
 
 }
