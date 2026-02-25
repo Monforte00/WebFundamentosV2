@@ -70,9 +70,12 @@ a:hover{
 .cargo{
     font-weight: bold;
     font-size: 20PX;
+    padding-left: 20px;
+    margin-bottom: 0px;
 
 }
 .atividades{
-    
+    margin-top: 0px;
+    padding-left: 40px    
 
 }
