@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Fit Content</title>
+    <style>
+        .container{
+          border: 2px solid black;
+          padding: 16px;
+          width: 300px;
+          margin-bottom: 10px; 
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .fit-content .item{
+            width: fit-content;
+        }
+
+        .min-content .item{
+            width: min-content;
+        }
+
+        .max-content .item{
+            width: max-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. A minus doloribus, delectus harum nam, in et laboriosam quasi dicta autem dolores est repellat sequi dolorem!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum id sit blanditiis temporibus eius ipsum, ea soluta ducimus perferendis dignissimos dolorum consequatur similique recusandae aspernatur minus at esse est fugiat. Placeat deleniti officiis voluptates! Beatae aut earum quam repellat dolorem similique dicta suscipit. Facilis obcaecati autem quam temporibus, molestiae error.</div>
+    </div>
+    <div class="container fit-content">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. A minus doloribus, delectus harum nam, in et laboriosam quasi dicta autem dolores est repellat sequi dolorem!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum id sit blanditiis temporibus eius ipsum, ea soluta ducimus perferendis dignissimos dolorum consequatur similique recusandae aspernatur minus at esse est fugiat. Placeat deleniti officiis voluptates! Beatae aut earum quam repellat dolorem similique dicta suscipit. Facilis obcaecati autem quam temporibus, molestiae error.</div>
+    </div>
+    <div class="container min-content">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. A minus doloribus, delectus harum nam, in et laboriosam quasi dicta autem dolores est repellat sequi dolorem!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum id sit blanditiis temporibus eius ipsum, ea soluta ducimus perferendis dignissimos dolorum consequatur similique recusandae aspernatur minus at esse est fugiat. Placeat deleniti officiis voluptates! Beatae aut earum quam repellat dolorem similique dicta suscipit. Facilis obcaecati autem quam temporibus, molestiae error.</div>
+    </div>
+    <div class="container max-content">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetuin et laboriosam quasi dicta autem dolores est repellat sequi dolorem!</div>
+       </div>
+</body>
+</html>
